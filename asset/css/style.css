@@ -1,34 +1,26 @@
 /* CCS GENERAL */
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
 }
-
 p {
     text-align: center;
 }
-
-
 .main-menu {
     list-style: none;
 }
-
-a{
+a {
     text-decoration: none;
     display: inline-flex;
 }
-
 /*SECTION PRE HEADER */
-
 #pre-header {
     padding: 1rem 0;
 }
@@ -38,7 +30,6 @@ a{
     justify-content: left;
     margin-left: 15px;
 }
-
 /* nav bar */
 .main-menu {
     display: flex;
@@ -47,7 +38,6 @@ a{
     align-items: center;
     list-style: none;
 }
-
 .main-menu a {
     color: rgba(41,43,44,255);
     text-transform: uppercase;
@@ -58,7 +48,6 @@ a{
 .bar {
     border-left: 2px solid black
 }
-
 /*DEBUT SECTION BANNER */
 .banner {
     background-image: url(../image/photo-1556139943-4bdca53adf1e\ 1.jpg);
@@ -68,14 +57,12 @@ a{
     text-align: center;
     text-transform: uppercase;
 }
-
 .banner h1 {
     color: black;
     font-size: 50px;
     font-weight: bold;
     text-shadow: 2px 2px 5px grey
 }
-
 .btn-plein {
     padding: 10px 20px;
     border-radius: 5px;
@@ -83,7 +70,6 @@ a{
     background-color:rgba(255,70,118,255) ;
     color: white;
 }
-
 /* Animations */
 .main-menu a:hover {
     color: rgba(255,70,118,255); 
@@ -93,31 +79,80 @@ a{
     background-color:rgba(64,217,199,255); 
     transition: background-color 0.3s ease; 
 }
-
 /*FIN SECTION BANNER */
-
+/* ------------------------------------------------------------------ */
 /*SECTION NOTRE APPROCHE */
-
 #notre-approche {
-    padding: 3% 0%;
+    padding: 3rem 0;
 }
-
-
-
+#notre-approche .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+ }
+.photo  img {
+width: 500px;
+margin-left: 5rem;
+margin-right: 5rem;
+}
 .pre-content {
     align-content: center;
     text-align: center;
     bottom :50px
-    
 }
-
 .content1 {
-
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    width: 100%;
 }
-
+h3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
 .paragraphe  li {
-
     list-style-type: "-";
 }
+.paragraphe {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+/* LIGNE  */
+.ligne {
+display: flex;
+justify-content: center;
+padding: 1rem;
+}
+/* BOUTONS VIDES */
+.btn-vide {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: rgba(255,70,118,255);
+    border: solid rgba(255,70,118,255);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btnsavoir {
+display: flex;
+justify-content: center;
+
+}
+/* Anim btn-vide */
+.btn-vide:hover {
+    color:rgba(64,217,199,255);
+}
+/* <!-- SECTION ICONES --> */
+#icones h3 {
+    text-transform: uppercase;
+}
+.coeur {
+
+
+
+}
+
