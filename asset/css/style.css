@@ -102,14 +102,22 @@ a{
     padding: 3% 0%;
 }
 
-.photo {
-    display: flex;
-    justify-content: left;
-    padding: 30px;
-}
 
-.pre-content h2 {
+
+.pre-content {
     align-content: center;
     text-align: center;
     bottom :50px
+    
+}
+
+.content1 {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraphe  li {
+
+    list-style-type: "-";
 }
